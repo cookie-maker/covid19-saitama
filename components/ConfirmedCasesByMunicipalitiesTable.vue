@@ -13,7 +13,18 @@
       :disable-sort="true"
       :mobile-breakpoint="0"
       class="cardTable"
-    />
+    >
+      <template v-slot:item.population="{ item }">
+        {{ item.population ? item.population.toLocaleString() : '' }}
+      </template>
+      <template v-slot:item.casesPerTenThousandPopulation="{ item }">
+        {{
+          item.population
+            ? Math.round(((item.nbCases * 10000) / item.population) * 100) / 100
+            : ''
+        }}
+      </template>
+    </v-data-table>
     <template v-slot:infoPanel>
       <data-view-basic-info-panel
         :l-text="info.lText"

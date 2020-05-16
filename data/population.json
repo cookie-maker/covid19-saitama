@@ -1,0 +1,288 @@
+{
+    "datasets": [
+        {
+            "city": "さいたま市",
+            "population": 1314102
+        },
+        {
+            "city": "川越市",
+            "population": 354463
+        },
+        {
+            "city": "熊谷市",
+            "population": 194246
+        },
+        {
+            "city": "川口市",
+            "population": 594552
+        },
+        {
+            "city": "行田市",
+            "population": 78929
+        },
+        {
+            "city": "秩父市",
+            "population": 59787
+        },
+        {
+            "city": "所沢市",
+            "population": 341289
+        },
+        {
+            "city": "飯能市",
+            "population": 79544
+        },
+        {
+            "city": "加須市",
+            "population": 110764
+        },
+        {
+            "city": "本庄市",
+            "population": 76922
+        },
+        {
+            "city": "東松山市",
+            "population": 92196
+        },
+        {
+            "city": "春日部市",
+            "population": 229593
+        },
+        {
+            "city": "狭山市",
+            "population": 148924
+        },
+        {
+            "city": "羽生市",
+            "population": 53728
+        },
+        {
+            "city": "鴻巣市",
+            "population": 117046
+        },
+        {
+            "city": "深谷市",
+            "population": 141803
+        },
+        {
+            "city": "上尾市",
+            "population": 226202
+        },
+        {
+            "city": "草加市",
+            "population": 251184
+        },
+        {
+            "city": "越谷市",
+            "population": 346108
+        },
+        {
+            "city": "蕨市",
+            "population": 74996
+        },
+        {
+            "city": "戸田市",
+            "population": 142068
+        },
+        {
+            "city": "入間市",
+            "population": 146375
+        },
+        {
+            "city": "朝霞市",
+            "population": 142864
+        },
+        {
+            "city": "志木市",
+            "population": 75214
+        },
+        {
+            "city": "和光市",
+            "population": 84023
+        },
+        {
+            "city": "新座市",
+            "population": 164467
+        },
+        {
+            "city": "桶川市",
+            "population": 74269
+        },
+        {
+            "city": "久喜市",
+            "population": 150808
+        },
+        {
+            "city": "北本市",
+            "population": 65432
+        },
+        {
+            "city": "八潮市",
+            "population": 93101
+        },
+        {
+            "city": "富士見市",
+            "population": 110234
+        },
+        {
+            "city": "三郷市",
+            "population": 141784
+        },
+        {
+            "city": "蓮田市",
+            "population": 61387
+        },
+        {
+            "city": "坂戸市",
+            "population": 101143
+        },
+        {
+            "city": "幸手市",
+            "population": 50484
+        },
+        {
+            "city": "鶴ヶ島市",
+            "population": 70095
+        },
+        {
+            "city": "日高市",
+            "population": 55114
+        },
+        {
+            "city": "吉川市",
+            "population": 71869
+        },
+        {
+            "city": "ふじみ野市",
+            "population": 112763
+        },
+        {
+            "city": "白岡市",
+            "population": 52073
+        },
+        {
+            "city": "北足立郡",
+            "population": 45042
+        },
+        {
+            "city": "伊奈町",
+            "population": 45042
+        },
+        {
+            "city": "入間郡",
+            "population": 85131
+        },
+        {
+            "city": "三芳町",
+            "population": 38470
+        },
+        {
+            "city": "毛呂山町",
+            "population": 35591
+        },
+        {
+            "city": "越生町",
+            "population": 11070
+        },
+        {
+            "city": "比企郡",
+            "population": 128597
+        },
+        {
+            "city": "滑川町",
+            "population": 19623
+        },
+        {
+            "city": "嵐山町",
+            "population": 18006
+        },
+        {
+            "city": "小川町",
+            "population": 28889
+        },
+        {
+            "city": "川島町",
+            "population": 19575
+        },
+        {
+            "city": "吉見町",
+            "population": 18362
+        },
+        {
+            "city": "鳩山町",
+            "population": 13531
+        },
+        {
+            "city": "ときがわ町",
+            "population": 10611
+        },
+        {
+            "city": "秩父郡",
+            "population": 37726
+        },
+        {
+            "city": "横瀬町",
+            "population": 7997
+        },
+        {
+            "city": "皆野町",
+            "population": 9432
+        },
+        {
+            "city": "長瀞町",
+            "population": 6779
+        },
+        {
+            "city": "小鹿野町",
+            "population": 10928
+        },
+        {
+            "city": "東秩父村",
+            "population": 2590
+        },
+        {
+            "city": "児玉郡",
+            "population": 54079
+        },
+        {
+            "city": "美里町",
+            "population": 10868
+        },
+        {
+            "city": "神川町",
+            "population": 13158
+        },
+        {
+            "city": "上里町",
+            "population": 30053
+        },
+        {
+            "city": "大里郡",
+            "population": 32323
+        },
+        {
+            "city": "寄居町",
+            "population": 32323
+        },
+        {
+            "city": "南埼玉郡",
+            "population": 34154
+        },
+        {
+            "city": "宮代町",
+            "population": 34154
+        },
+        {
+            "city": "北葛飾郡",
+            "population": 72797
+        },
+        {
+            "city": "杉戸町",
+            "population": 44030
+        },
+        {
+            "city": "松伏町",
+            "population": 28767
+        }
+    ]
+}

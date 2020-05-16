@@ -16,11 +16,13 @@
 import dayjs from 'dayjs'
 import Data from '@/data/data.json'
 import ConfirmedCasesByMunicipalitiesTable from '@/components/ConfirmedCasesByMunicipalitiesTable.vue'
+import PopulationData from '@/data/population.json'
 
 export default {
   components: {
     ConfirmedCasesByMunicipalitiesTable
   },
+
   data() {
     // 市町村ごとの陽性患者数
     const municipalitiesTable = {
@@ -28,10 +30,21 @@ export default {
       datasets: []
     }
 
+    // 市町村ごとの人口データ
+    const populationMap = {}
+    PopulationData.datasets.forEach(element => {
+      populationMap[element.city] = element.population
+    })
+
     // ヘッダーを設定
     municipalitiesTable.headers = [
       { text: this.$t('市町村'), value: 'label' },
-      { text: this.$t('陽性患者数'), value: 'nbCases', align: 'end' }
+      { text: this.$t('陽性患者数'), value: 'nbCases', align: 'end' },
+      { text: this.$t('人口'), value: 'population' },
+      {
+        text: this.$t('1万人あたりの陽性患者'),
+        value: 'casesPerTenThousandPopulation'
+      }
     ]
 
     // データを追加
@@ -40,9 +53,11 @@ export default {
         _ => _.label === this.$t(item.居住地)
       )
       if (retrievedMunicipality.length === 0) {
+        const population = populationMap[item.居住地]
         municipalitiesTable.datasets.push({
           label: this.$t(item.居住地),
-          nbCases: 1
+          nbCases: 1,
+          population
         })
       } else {
         const idx = municipalitiesTable.datasets.indexOf(
